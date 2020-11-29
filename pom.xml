@@ -161,7 +161,7 @@
 						</goals>
 						<phase>initialize</phase>
 						<configuration>
-							<workingDirectory>src/main/resources/frontend/app</workingDirectory>
+							<workingDirectory>src/main/typescript/app</workingDirectory>
 							<executable>npm</executable>
 							<arguments>
 								<argument>install</argument>
@@ -175,7 +175,7 @@
 						</goals>
 						<phase>generate-resources</phase>
 						<configuration>
-							<workingDirectory>src/main/resources/frontend/app</workingDirectory>
+							<workingDirectory>src/main/typescript/app</workingDirectory>
 							<executable>npm</executable>
 							<arguments>
 								<argument>run</argument>
